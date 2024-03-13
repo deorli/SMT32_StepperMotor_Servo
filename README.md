@@ -42,12 +42,9 @@ The directory structure is based on the
 |----------------------|-----------------------------------------------------------------------|
 | build/               | Build output (object files + executable)                              |
 | build_debug/         | Build output with debug information (object files + executable)       |
-| documnets/           | Documentation (e.g., SW architecure, diagrams, images)                |
-| external/            | External dependencies (as git submodules if possible)                 |
+| Application/         | Appplication files                                                    |
+| Core/                | It all starts here                                                    |
+| Documnets/           | Documentation (e.g., SW architecure, diagrams, images)                |
+| Drivers/             | Source files for the all drivers                                      |
+| External/            | External dependencies (as git submodules if possible)                 |
 | Makefiles/           | Folder contains main makefile and compile configuration               |
-| source/              | Source files (.c/.h)                                                  |
-| source/app/          | Source files for the application layer (see SW architecture)          |
-| source/common/       | Source files for code used across the project                         |
-| source/drivers/      | Source files for the driver layer (see SW architecture)               |
-| source/test/         | Source files related to test code                                     |
-| .github/             | Configuration file for GitHub actions                                 |
